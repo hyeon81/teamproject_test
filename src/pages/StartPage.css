@@ -1,0 +1,56 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 0px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+/* home */
+.container {
+  background-color: rgba(178, 199, 217, 1);
+  width: 360px;
+  height: 100vh;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.gnb {
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  margin: 144px auto 30px;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 24px;
+}
+
+.title p {
+  margin-top: -4px;
+  color: gray;
+}
+
+.home_button {
+  font-size: 14px;
+  width: 280px;
+  border-radius: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 2px auto;
+  gap: 4px;
+  background-color: rgba(254, 229, 0, 1);
+}
+
+.home_button p {
+  line-height: 14px;
+  font-weight: bold;
+}
+
