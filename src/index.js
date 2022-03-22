@@ -1,5 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import StartPage from "./pages/StartPage";
+import Root from './client/Root';
+import registerServiceWorker from './registerServiceWorker';
+import './index.css';
 
-ReactDOM.render(<StartPage />, document.getElementById("root"));
+ReactDOM.render(<Root />, document.getElementById("root"));
+registerServiceWorker();
