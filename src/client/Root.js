@@ -1,10 +1,12 @@
-import React from 'react';
-import { BrowserRouter } from "react-router-dom";
-import App from '../shared/App';
-
-const Root = () => (
-    <BrowserRouter>
-        <App/>
-    </BrowserRouter>
-)
-export default Root;
+// import React from 'react';
+// import {BrowserRouter} from "react-router-dom";
+// import App from '../shared/App';
+// import Nav from '../component/Nav'
+//
+// const Root = () => (
+//     <BrowserRouter>
+//         <Nav/>
+//         <App/>
+//     </BrowserRouter>
+// )
+// export default Root;

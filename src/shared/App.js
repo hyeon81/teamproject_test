@@ -1,14 +1,16 @@
 import React, {Component} from 'react';
-import {Route} from 'react-router-dom';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import {StartPage, TestPage} from '../pages/';
 
 class App extends Component {
     render() {
         return (
-            <div>
-                <Route path="/" component={StartPage}/>
-                <Route path="/test" component={TestPage}/>
-            </div>
+            <BrowserRouter>
+                <Routes>
+                    <Route exact path="/" element={<StartPage/>}/>
+                    <Route path="/test" element={<TestPage/>}/>
+                </Routes>
+            </BrowserRouter>
         );
     }
 }
