@@ -14,6 +14,10 @@ ol, ul {
   height: 100vh;
   margin: 0px auto;
   display: flex;
+<<<<<<< HEAD
+=======
+  /*align-content: space-between;*/
+>>>>>>> 97ce3d8a592abcb3482d6ca864ffee875e9bde1a
   flex-direction: column;
 }
 
@@ -30,17 +34,24 @@ ol, ul {
   margin-right: 10px;
 }
 
+<<<<<<< HEAD
 .container {
   height: 100%;
 }
 
+=======
+>>>>>>> 97ce3d8a592abcb3482d6ca864ffee875e9bde1a
 .wrap {
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
   margin-top: -70px;
+=======
+  margin-top: -30px;
+>>>>>>> 97ce3d8a592abcb3482d6ca864ffee875e9bde1a
 }
 
 .title {
