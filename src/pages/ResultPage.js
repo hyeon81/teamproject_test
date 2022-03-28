@@ -40,4 +40,4 @@ function ResultPage() {
     )
 }
 
-export default ResultPagige;
+export default ResultPage;
