@@ -4,7 +4,7 @@ export default [
         "subhead": "아는 만큼 보인다! 여행 모범생인 당신",
         "subject": "전 세계가 원하던 도시 이스탄불, 터키",
         "nickname": "과학자형",
-        "img": ".jpg",
+        "img": "img/INTJ.jpg",
         "description": [
             {
                 "des": "계획적이고 대개 분석력이 높은 편이에요"
@@ -45,7 +45,7 @@ export default [
         "subhead": "아는 만큼 보인다! 여행 모범생인 당신",
         "subject": "전 세계가 원하던 도시 이스탄불, 터키",
         "nickname": "과학자형",
-        "img": ".jpg",
+        "img": "img/INTP.jpg",
         "description": [
             {
                 "des": "계획적이고 대개 분석력이 높은 편이에요"
@@ -86,7 +86,7 @@ export default [
         "subhead": "아는 만큼 보인다! 여행 모범생인 당신",
         "subject": "전 세계가 원하던 도시 이스탄불, 터키",
         "nickname": "과학자형",
-        "img": ".jpg",
+        "img": "img/INFJ.jpg",
         "description": [
             {
                 "des": "계획적이고 대개 분석력이 높은 편이에요"
@@ -127,7 +127,7 @@ export default [
         "subhead": "아는 만큼 보인다! 여행 모범생인 당신",
         "subject": "전 세계가 원하던 도시 이스탄불, 터키",
         "nickname": "과학자형",
-        "img": ".jpg",
+        "img": "img/INFP.jpg",
         "description": [
             {
                 "des": "계획적이고 대개 분석력이 높은 편이에요"
@@ -168,7 +168,7 @@ export default [
         "subhead": "아는 만큼 보인다! 여행 모범생인 당신",
         "subject": "전 세계가 원하던 도시 이스탄불, 터키",
         "nickname": "과학자형",
-        "img": ".jpg",
+        "img": "img/ISTJ.jpg",
         "description": [
             {
                 "des": "계획적이고 대개 분석력이 높은 편이에요"
@@ -209,7 +209,7 @@ export default [
         "subhead": "아는 만큼 보인다! 여행 모범생인 당신",
         "subject": "전 세계가 원하던 도시 이스탄불, 터키",
         "nickname": "과학자형",
-        "img": ".jpg",
+        "img": "img/ISFJ.jpg",
         "description": [
             {
                 "des": "계획적이고 대개 분석력이 높은 편이에요"
@@ -250,7 +250,7 @@ export default [
         "subhead": "아는 만큼 보인다! 여행 모범생인 당신",
         "subject": "전 세계가 원하던 도시 이스탄불, 터키",
         "nickname": "과학자형",
-        "img": ".jpg",
+        "img": "img/ISTP.jpg",
         "description": [
             {
                 "des": "계획적이고 대개 분석력이 높은 편이에요"
@@ -286,13 +286,12 @@ export default [
             }
         ]
     },
-
     {
         "id": "ISFP",
         "subhead": "아는 만큼 보인다! 여행 모범생인 당신",
         "subject": "전 세계가 원하던 도시 이스탄불, 터키",
         "nickname": "과학자형",
-        "img": ".jpg",
+        "img": "img/ISFP.jpg",
         "description": [
             {
                 "des": "계획적이고 대개 분석력이 높은 편이에요"
@@ -328,13 +327,12 @@ export default [
             }
         ]
     },
-
     {
         "id": "ESTP",
         "subhead": "아는 만큼 보인다! 여행 모범생인 당신",
         "subject": "전 세계가 원하던 도시 이스탄불, 터키",
         "nickname": "과학자형",
-        "img": ".jpg",
+        "img": "img/ESTP.jpg",
         "description": [
             {
                 "des": "계획적이고 대개 분석력이 높은 편이에요"
@@ -370,13 +368,12 @@ export default [
             }
         ]
     },
-
     {
         "id": "ESFP",
         "subhead": "아는 만큼 보인다! 여행 모범생인 당신",
         "subject": "전 세계가 원하던 도시 이스탄불, 터키",
         "nickname": "과학자형",
-        "img": ".jpg",
+        "img": "img/ESTP.jpg",
         "description": [
             {
                 "des": "계획적이고 대개 분석력이 높은 편이에요"
@@ -412,13 +409,12 @@ export default [
             }
         ]
     },
-
     {
         "id": "ENTJ",
         "subhead": "아는 만큼 보인다! 여행 모범생인 당신",
         "subject": "전 세계가 원하던 도시 이스탄불, 터키",
         "nickname": "과학자형",
-        "img": ".jpg",
+        "img": "img/ENTJ.jpg",
         "description": [
             {
                 "des": "계획적이고 대개 분석력이 높은 편이에요"
@@ -454,13 +450,12 @@ export default [
             }
         ]
     },
-
     {
         "id": "ENTP",
         "subhead": "아는 만큼 보인다! 여행 모범생인 당신",
         "subject": "전 세계가 원하던 도시 이스탄불, 터키",
         "nickname": "과학자형",
-        "img": ".jpg",
+        "img": "img/ENTP.jpg",
         "description": [
             {
                 "des": "계획적이고 대개 분석력이 높은 편이에요"
@@ -496,13 +491,12 @@ export default [
             }
         ]
     },
-
     {
         "id": "ENFJ",
         "subhead": "아는 만큼 보인다! 여행 모범생인 당신",
         "subject": "전 세계가 원하던 도시 이스탄불, 터키",
         "nickname": "과학자형",
-        "img": ".jpg",
+        "img": "img/ENFJ.jpg",
         "description": [
             {
                 "des": "계획적이고 대개 분석력이 높은 편이에요"
@@ -538,13 +532,12 @@ export default [
             }
         ]
     },
-
     {
         "id": "ENFP",
         "subhead": "아는 만큼 보인다! 여행 모범생인 당신",
         "subject": "전 세계가 원하던 도시 이스탄불, 터키",
         "nickname": "과학자형",
-        "img": ".jpg",
+        "img": "img/ENFP.jpg",
         "description": [
             {
                 "des": "계획적이고 대개 분석력이 높은 편이에요"
@@ -580,13 +573,12 @@ export default [
             }
         ]
     },
-
     {
         "id": "ESTJ",
         "subhead": "아는 만큼 보인다! 여행 모범생인 당신",
         "subject": "전 세계가 원하던 도시 이스탄불, 터키",
         "nickname": "과학자형",
-        "img": ".jpg",
+        "img": "img/ESTJ.jpg",
         "description": [
             {
                 "des": "계획적이고 대개 분석력이 높은 편이에요"
@@ -622,13 +614,12 @@ export default [
             }
         ]
     },
-
     {
         "id": "ESFJ",
         "subhead": "아는 만큼 보인다! 여행 모범생인 당신",
         "subject": "전 세계가 원하던 도시 이스탄불, 터키",
         "nickname": "과학자형",
-        "img": ".jpg",
+        "img": "img/ESFJ.jpg",
         "description": [
             {
                 "des": "계획적이고 대개 분석력이 높은 편이에요"

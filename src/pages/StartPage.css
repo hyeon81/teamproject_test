@@ -172,3 +172,32 @@ ol, ul {
   border-radius: 14px;
   margin-right: 8px;
 }
+
+/* Result Page */
+.result {
+  text-align: center;
+  width: 300px;
+  background-color: white;
+  padding: 24px 18px 24px 18px;
+  border-radius: 20px;
+}
+.result h1 {
+  margin: 0 auto;
+  padding-bottom: 10px;
+  width: 40px;
+  color: #8898a5;
+  border-bottom: solid 1px #8898a5;
+}
+
+.result p {
+  font-size: 15px;
+  margin: 28px auto;
+  line-height: 22px;
+  /*text-align: justify;*/
+}
+
+.result span {
+  font-weight: bold;
+  font-size: 16px;
+  /*color: #4a5b6a;*/
+}
