@@ -6,11 +6,7 @@ import {BsFillArrowRightCircleFill, BsPlusSquare} from "react-icons/bs";
 import {useNavigate} from "react-router-dom";
 
 function StartPage() {
-<<<<<<< HEAD
-    let navigate = useNavigate();
-=======
     const navigate = useNavigate();
->>>>>>> 97ce3d8a592abcb3482d6ca864ffee875e9bde1a
 
     const [name, setName] = useState("");
     const handleChange = ({target: {value}}) => setName(value);
@@ -31,21 +27,6 @@ function StartPage() {
                         <AiOutlineMenu size="28"/>
                     </div>
                 </div>
-<<<<<<< HEAD
-                <div className="container">
-                    <div className="wrap">
-                        <div className="title">
-                            <h1>조별과제 속 나의 모습은?</h1>
-                            <p>총 16개의 유형의 MBTI 성향을 기반으로 <br></br>조별과제 속 나의 모습을 알아보아요</p>
-                        </div>
-                        <form onSubmit={handleSubmit}>
-                            <input id="name" name="name" type="text" value={name} onChange={handleChange}
-                                   placeholder="이름을 입력해주세요" maxLength="14" required/>
-                            <br/>
-                            <button className="home_button" type="submit">테스트하기<BsFillArrowRightCircleFill/></button>
-                        </form>
-                    </div>
-=======
                 <div className="wrap">
                     <div className="title">
                         <h1>조별과제 속 나의 모습은?</h1>
@@ -57,7 +38,6 @@ function StartPage() {
                         <br/>
                         <button className="home_button" type="submit">테스트하기<BsFillArrowRightCircleFill/></button>
                     </form>
->>>>>>> 97ce3d8a592abcb3482d6ca864ffee875e9bde1a
                 </div>
                 <div className="under">
                     < BsPlusSquare className="plus_icon" size="30" color="rgba(167, 167, 167, 0.7)"/>

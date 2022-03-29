@@ -1,6 +1,8 @@
 import React from 'react';
 import {useSearchParams} from "react-router-dom";
-import data from "../json/question";
+import mbti from "../json/mbtiresult";
+import {AiOutlineLeft, AiOutlineMenu, AiOutlineSearch} from "react-icons/ai";
+import {BsPlusSquare} from "react-icons/bs";
 
 function ResultPage() {
     let [searchParams] = useSearchParams();
@@ -34,9 +36,37 @@ function ResultPage() {
         j <= 2 ? 'J' : 'P'
     ];
 
-    console.log(result);
+    for(var count = 0; count < 12; count++)
+    {
+        if(mbti[count].id === result)
+            break;
+    }
+
     return (
-        <div>This is result</div>
+        <>
+            <div className="frame">
+                <div className="gnb">
+                    <div className="icon-right">
+                        <AiOutlineLeft size="28"/>
+                    </div>
+                    <div className="icon-left">
+                        <AiOutlineSearch className="search_icon" size="28"/>
+                        <AiOutlineMenu size="28"/>
+                    </div>
+                </div>
+                <div className="wrap">
+                    <div className="question">
+                        <h1>{mbti[count].id}</h1>
+                        <p>{mbti[count].subhead}<br/><span>{mbti[count].subject}</span></p>
+                    </div>
+                </div>
+                <div className="under">
+                    < BsPlusSquare className="plus_icon" size="30"
+                                   color="rgba(167, 167, 167, 0.7)"/>
+                    <div className="blank"></div>
+                </div>
+            </div>
+        </>
     )
 }
 
