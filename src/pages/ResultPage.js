@@ -42,7 +42,7 @@ function ResultPage() {
 
     return (
         <>
-            <div className="frame">
+            <div className="result-frame">
                 <div className="gnb">
                     <div className="icon-right">
                         <AiOutlineLeft size="28"/>
@@ -55,9 +55,16 @@ function ResultPage() {
                 <div className="wrap">
                     <div className="result">
                         <h3>조별 과제 속 내 모습은?</h3>
-                        <img src={mbti[count].img} alt="결과 이미지" width="150px" height="150px"/>
-                        <h1>{mbti[count].id}</h1>
-                        <p>{mbti[count].subhead}<br/><span>{mbti[count].subject}</span></p>
+                        <h2>{mbti[count].nickname}</h2>
+                        <p>{mbti[count].id}</p>
+                        <img src={mbti[count].img} alt="결과 이미지" width="200px" height="200px"/>
+                        <div className="des"><span>{mbti[count].subhead}</span>{mbti[count].description.map((item) =>{
+                            return (
+                                <li key={item.des}>
+                                    {item.des}
+                                </li>
+                            )
+                        })}</div>
                     </div>
                 </div>
                 <div className="under">
