@@ -1,18 +1,18 @@
 import React, {useState} from "react";
+import {useSearchParams, useNavigate} from "react-router-dom";
 import "./StartPage.css";
-
 import {AiOutlineLeft, AiOutlineMenu, AiOutlineSearch} from "react-icons/ai";
 import {BsFillArrowRightCircleFill, BsPlusSquare} from "react-icons/bs";
-import {useNavigate} from "react-router-dom";
 
 function StartPage() {
     const navigate = useNavigate();
-
+    let [searchParams, setSearchParams] = useSearchParams();
     const [name, setName] = useState("");
     const handleChange = ({target: {value}}) => setName(value);
     const handleSubmit = (event) => {
         event.preventDefault();
-        navigate("/test");
+        const a = document.getElementById('name').value;
+        navigate("/test?name="+a);
     }
 
     return (

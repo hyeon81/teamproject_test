@@ -190,21 +190,35 @@ ol, ul {
   border-radius: 20px;
 }
 
-.result h3 {
+.result h3:nth-child(1) {
   /*background-color: #92a2b2;*/
   border-radius: 20px;
   width: 360px;
   margin: 10px auto;
   color: #a7bbcb;
   /*color: white;*/
+}
 
+.result h3 span{
+  color: #7f9cb6;
+}
+
+.result h3:nth-child(2) {
+  /*background-color: #92a2b2;*/
+  border-radius: 20px;
+  width: 360px;
+  margin: 8px auto 2px;
+  color: #2b2b2b;
+  font-weight: normal;
+  font-size: 16px;
+  /*color: white;*/
 }
 
 .result h2 {
   margin: 0 auto 8px;
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .result p {
@@ -214,7 +228,7 @@ ol, ul {
   color: #4a5b6a;
 }
 
-.result span {
+.des span {
   font-weight: bold;
   font-size: 14px;
   color: #4a5b6a;

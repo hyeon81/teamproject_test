@@ -10,24 +10,33 @@ function TestPage() {
     let [searchParams, setSearchParams] = useSearchParams();
     // console.log("???", searchParams.get("res"));
     const [num, setNum] = useState(searchParams.get("res")?.length ?? 0);
-    const [mbti, setMbti] = useState([]);
+    const [mbti, setMbti] = useState(searchParams.get("res")?.split('') ?? []);
     const navigate = useNavigate();
+    //연결 어케함?
     const nextSlide = (idx) => {
         const a = [...mbti, data[num].answers[idx].type]
         setMbti(a);
-        setSearchParams({
-            res: a.join('')
-        })
+
+        searchParams.set("res", a.join(''))
+
+        setSearchParams(searchParams)
     };
 
     useEffect(() => {
-        const len=searchParams.get("res")?.length ?? 0
+        const len = searchParams.get("res")?.length ?? 0
 
-        if(len < 12)
+        setMbti(searchParams.get("res")?.split('') ?? []);
+
+        if (len < 12)
             setNum(searchParams.get("res")?.length ?? 0)
-        else
-            navigate("/result?res="+searchParams.get("res"));
-    }, [searchParams.get("res")])
+        else {
+            navigate("/result?"+searchParams.toString());
+        }
+    }, [searchParams])
+
+    if(num >=12){
+        return <></>
+    }
 
     return (
         <>
