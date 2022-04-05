@@ -10,10 +10,10 @@
         "des": "계획적이고 대개 분석력이 높은 편이에요"
       },
       {
-        "des": "1분 1초까지 철저하게 계획하는 것을 좋아해요"
+        "des": "하나부터 열까지 철저하게 계획하는 것을 좋아해요"
       },
       {
-        "des": "개인주의적인 성향이라 타인에게 감정을 잘 드러내지 않고 공감을 어려워 하는 편이에요"
+        "des": "개인주의적인 성향이라 타인에게 감정을 잘 드러내지 않고, 공감을 어려워 하는 편이에요"
       },
       {
         "des": "혼자서 하는 게 편하다보니 혼자서 조별 과제를 할 때가 있어요"
@@ -28,20 +28,18 @@
         "des": "고집이 세서 팀원과의 소통이 원활하게 이뤄지지 않을 수도 있어요"
       }
     ],
-    "duo": [
-      {
-        "img": ".jpg",
-        "subhead": "ENTP",
-        "des": "열정의 도시 마드리드, 스페인"
-      }
-    ],
-    "counter": [
-      {
-        "img": ".jpg",
-        "subhead": "ESFP",
-        "des": "호수의 도시 루가노, 스위스"
-      }
-    ]
+    "duo": {
+      "img": "/img/ENTP.jpg",
+      "subhead": "ENTP",
+      "nickname1": "논쟁과 의견, 자유는 환영!",
+      "nickname2": "자유로운 영혼의 입털기 맥스 팀원"
+    },
+    "counter": {
+      "img": "/img/ESFP.jpg",
+      "subhead": "ESFP",
+      "nickname1": "사람이 좋아!",
+      "nickname2": "친화력 끝판왕 귀차니즘 팀원"
+    }
   },
   {
     "id": "INTP",
@@ -71,22 +69,19 @@
       {
         "des": "주로 자료조사 역할을 많이 맡아요"
       }
-
     ],
-    "duo": [
-      {
-        "img": ".jpg",
-        "subhead": "ENTJ",
-        "des": "열정의 도시 마드리드, 스페인"
-      }
-    ],
-    "counter": [
-      {
-        "img": ".jpg",
-        "subhead": "ESFJ",
-        "des": "호수의 도시 루가노, 스위스"
-      }
-    ]
+    "duo": {
+      "subhead": "ENTJ",
+      "nickname1": "내가 있는 한 이 팀플은 완벽해야 해!",
+      "nickname2": "열정 가득 불도저 리더형 팀원",
+      "img": "img/ENTJ.jpg"
+    },
+    "counter": {
+      "subhead": "ESFJ",
+      "nickname1": "모두와 친해졌으면 좋겠어!",
+      "nickname2": "사교력 갑 온화한 중재형 팀원",
+      "img": "img/ESFJ.jpg"
+    }
   },
   {
     "id": "INFJ",
@@ -114,26 +109,24 @@
         "des": "팀플에서 주로 서포팅을 해주고, PPT 제작을 맡는 경우가 많아요"
       }
     ],
-    "duo": [
-      {
-        "img": ".jpg",
-        "subhead": "ENFP",
-        "des": "열정의 도시 마드리드, 스페인"
-      }
-    ],
-    "counter": [
-      {
-        "img": ".jpg",
-        "subhead": "ESTP",
-        "des": "호수의 도시 루가노, 스위스"
-      }
-    ]
+    "duo": {
+      "subhead": "ENFP",
+      "nickname1": "넘치는 아이디어! 일벌리는 게 좋아!",
+      "nickname2": "아이디어 담당 즉흥형 팀원",
+      "img": "img/ENFP.jpg"
+    },
+    "counter": {
+      "subhead": "ESTP",
+      "nickname1": "난 내 갈 길을 간다!",
+      "nickname2": "순발력갑 마이웨이 팀원",
+      "img": "img/ESTP.jpg"
+    }
   },
   {
     "id": "INFP",
-    "subhead": "#창의적 #수줍음 #완벽주의 #평화주의자",
-    "nickname1": "폐 끼치긴 싫어!",
-    "nickname2": "게으른 완벽주의 팀원",
+    "subhead": "#창의적 #수줍음 #낭만적 #평화주의자",
+    "nickname1": "완벽하지 않으면 시작 안 해!",
+    "nickname2": "게으름 창의력 맥스 팀원",
     "img": "img/INFP.jpg",
     "description": [
       {
@@ -158,20 +151,18 @@
         "des": "하나에 꽂히면 그것에 몰두하고, 완벽하게 해내려고 해요"
       }
     ],
-    "duo": [
-      {
-        "img": ".jpg",
-        "subhead": "ENFJ",
-        "des": "열정의 도시 마드리드, 스페인"
-      }
-    ],
-    "counter": [
-      {
-        "img": ".jpg",
-        "subhead": "ESFJ",
-        "des": "호수의 도시 루가노, 스위스"
-      }
-    ]
+    "duo": {
+      "subhead": "ENFJ",
+      "nickname1": "모두들 잘 따라오세요!",
+      "nickname2": "인류력 맥스, 다정다감 리더형 팀원",
+      "img": "img/ENFJ.jpg"
+    },
+    "counter": {
+      "subhead": "ESFJ",
+      "nickname1": "모두와 친해졌으면 좋겠어!",
+      "nickname2": "사교력 갑 온화한 중재형 팀원",
+      "img": "img/ESFJ.jpg"
+    }
   },
   {
     "id": "ISTJ",
@@ -199,20 +190,18 @@
         "des": "답답해서 주로 조장을 맡아요. 차라리 본인이 다 하는 게 낫다고 생각해요"
       }
     ],
-    "duo": [
-      {
-        "img": ".jpg",
-        "subhead": "ESTP",
-        "des": "열정의 도시 마드리드, 스페인"
-      }
-    ],
-    "counter": [
-      {
-        "img": ".jpg",
-        "subhead": "ENFP",
-        "des": "호수의 도시 루가노, 스위스"
-      }
-    ]
+    "duo": {
+      "subhead": "ESTP",
+      "nickname1": "난 내 갈 길을 간다!",
+      "nickname2": "순발력갑 마이웨이 팀원",
+      "img": "img/ESTP.jpg"
+    },
+    "counter": {
+      "subhead": "ENFP",
+      "nickname1": "넘치는 아이디어! 일벌리는 게 좋아!",
+      "nickname2": "아이디어 담당 즉흥형 팀원",
+      "img": "img/ENFP.jpg"
+    }
   },
   {
     "id": "ISFJ",
@@ -240,20 +229,18 @@
         "des": "혼자 있는 것을 좋아하고, 개인 시간을 방해받는 것을 싫어해요"
       }
     ],
-    "duo": [
-      {
-        "img": ".jpg",
-        "subhead": "ESFP",
-        "des": "열정의 도시 마드리드, 스페인"
-      }
-    ],
-    "counter": [
-      {
-        "img": ".jpg",
-        "subhead": "ENTP",
-        "des": "호수의 도시 루가노, 스위스"
-      }
-    ]
+    "duo": {
+      "img": "/img/ESFP.jpg",
+      "subhead": "ESFP",
+      "nickname1": "사람이 좋아!",
+      "nickname2": "친화력 끝판왕 귀차니즘 팀원"
+    },
+    "counter": {
+      "img": "/img/ENTP.jpg",
+      "subhead": "ENTP",
+      "nickname1": "논쟁과 의견, 자유는 환영!",
+      "nickname2": "자유로운 영혼의 입털기 맥스 팀원"
+    }
   },
   {
     "id": "ISTP",
@@ -281,20 +268,18 @@
         "des": "보통은 PPT를 잘 만들어서 PPT 제작 역할을 맡아요"
       }
     ],
-    "duo": [
-      {
-        "img": ".jpg",
-        "subhead": "ESTJ",
-        "des": "열정의 도시 마드리드, 스페인"
-      }
-    ],
-    "counter": [
-      {
-        "img": ".jpg",
-        "subhead": "ENFJ",
-        "des": "호수의 도시 루가노, 스위스"
-      }
-    ]
+    "duo": {
+      "subhead": "ESTJ",
+      "nickname1": "계획대로 안되면 용납할 수 없어!",
+      "nickname2": "냉철한 완벽주의 리더형 팀원",
+      "img": "img/ESTJ.jpg"
+    },
+    "counter": {
+      "subhead": "ENFJ",
+      "nickname1": "모두들 잘 따라오세요!",
+      "nickname2": "인류력 맥스, 다정다감 리더형 팀원",
+      "img": "img/ENFJ.jpg"
+    }
   },
   {
     "id": "ISFP",
@@ -322,20 +307,18 @@
         "des": "보통 조별과제에서 남는 거 해요"
       }
     ],
-    "duo": [
-      {
-        "img": ".jpg",
-        "subhead": "ESFJ",
-        "des": "열정의 도시 마드리드, 스페인"
-      }
-    ],
-    "counter": [
-      {
-        "img": ".jpg",
-        "subhead": "ENTJ",
-        "des": "호수의 도시 루가노, 스위스"
-      }
-    ]
+    "duo": {
+      "subhead": "ESFJ",
+      "nickname1": "모두와 친해졌으면 좋겠어!",
+      "nickname2": "사교력 갑 온화한 중재형 팀원",
+      "img": "img/ESFJ.jpg"
+    },
+    "counter": {
+      "subhead": "ENTJ",
+      "nickname1": "내가 있는 한 이 팀플은 완벽해야 해!",
+      "nickname2": "열정 가득 불도저 리더형 팀원",
+      "img": "img/ENTJ.jpg"
+    }
   },
   {
     "id": "ESTP",
@@ -366,27 +349,25 @@
         "des": "리더쉽이 있기 때문에 보통 조별과제 팀장을 할 때가 많아요. 어느새 팀 분위기를 주도하고 있을 거예요"
       }
     ],
-    "duo": [
-      {
-        "img": ".jpg",
-        "subhead": "ISTJ",
-        "des": "열정의 도시 마드리드, 스페인"
-      }
-    ],
-    "counter": [
-      {
-        "img": ".jpg",
-        "subhead": "INFJ",
-        "des": "호수의 도시 루가노, 스위스"
-      }
-    ]
+    "duo": {
+      "subhead": "ISTJ",
+      "nickname1": "비효율은 참을 수 없어!",
+      "nickname2": "단호박 완벽주의 팀원",
+      "img": "img/ISTJ.jpg"
+    },
+    "counter": {
+      "subhead": "INFJ",
+      "nickname1": "평화롭게 갑시다!",
+      "nickname2": "계획적 서포팅형 팀원",
+      "img": "img/INFJ.jpg"
+    }
   },
   {
     "id": "ESFP",
     "subhead": "#관종 #우주최강친화력 #사실적 #귀차니즘",
     "nickname1": "사람이 좋아!",
     "nickname2": "친화력 끝판왕 귀차니즘 팀원",
-    "img": "img/ESTP.jpg",
+    "img": "img/ESFP.jpg",
     "description": [
       {
         "des": "활발하고 활동적이며 현실적이고 실제적이에요. 어떤 상황이든 잘 적응해요"
@@ -413,26 +394,23 @@
         "des": "팀 내의 분위기 메이커예요. 팀플 뒷풀이를 주도할 가능성이 높아요"
       }
     ],
-    "duo": [
-      {
-        "img": ".jpg",
-        "subhead": "ISFJ",
-        "des": "열정의 도시 마드리드, 스페인"
-      }
-    ],
-    "counter": [
-      {
-        "img": ".jpg",
-        "subhead": "INTJ",
-        "des": "호수의 도시 루가노, 스위스"
-      }
-    ]
+    "duo": {
+      "subhead": "ISFJ",
+      "nickname1": "서포트는 나에게 맡겨!",
+      "nickname2": "온화한 서포팅형 팀원",
+      "img": "img/ISFJ.jpg"
+    },
+    "counter": {
+      "img": ".jpg",
+      "subhead": "INTJ",
+      "des": "호수의 도시 루가노, 스위스"
+    }
   },
   {
     "id": "ENTJ",
     "subhead": "#계획적 #완벽주의 #논리적 #미래지향적",
     "nickname1": "내가 있는 한 이 팀플은 완벽해야 해!",
-    "nickname2": "불도저 리더형 팀원",
+    "nickname2": "열정 가득 불도저 리더형 팀원",
     "img": "img/ENTJ.jpg",
     "description": [
       {
@@ -457,20 +435,18 @@
         "des": "대부분 팀플의 팀장을 맡으려 해요. 맡는 이유는 하고 싶어서라기 보다는 다른 사람이 하는 걸 답답해하기 때문이에요"
       }
     ],
-    "duo": [
-      {
-        "img": ".jpg",
-        "subhead": "INTP",
-        "des": "열정의 도시 마드리드, 스페인"
-      }
-    ],
-    "counter": [
-      {
-        "img": ".jpg",
-        "subhead": "ISFP",
-        "des": "호수의 도시 루가노, 스위스"
-      }
-    ]
+    "duo": {
+      "subhead": "INTP",
+      "nickname1": "아이디어는 내게 맡겨!",
+      "nickname2": "아이디어 뱅크 팀원",
+      "img": "img/INTP.jpg"
+    },
+    "counter": {
+      "subhead": "ISFP",
+      "nickname1": "남는 거 할게요...!",
+      "nickname2": "맞춤형 액체형 팀원",
+      "img": "img/ISFP.jpg"
+    }
   },
   {
     "id": "ENTP",
@@ -501,20 +477,18 @@
         "des": "팀장까지는 할 생각이 없었는데, 의견 제시와 논쟁을 하다보니 팀장을 맡게 되었을 경우가 높아요"
       }
     ],
-    "duo": [
-      {
-        "img": ".jpg",
-        "subhead": "INTJ",
-        "des": "열정의 도시 마드리드, 스페인"
-      }
-    ],
-    "counter": [
-      {
-        "img": ".jpg",
-        "subhead": "ISFJ",
-        "des": "호수의 도시 루가노, 스위스"
-      }
-    ]
+    "duo": {
+      "subhead": "INTJ",
+      "nickname1": "혼자서 더 잘해요!",
+      "nickname2": "계획적 독고다이 팀원",
+      "img": "/img/INTJ.jpg"
+    },
+    "counter": {
+      "subhead": "ISFJ",
+      "nickname1": "서포트는 나에게 맡겨!",
+      "nickname2": "온화한 서포팅형 팀원",
+      "img": "img/ISFJ.jpg"
+    }
   },
   {
     "id": "ENFJ",
@@ -542,20 +516,18 @@
         "des": "본인이 총대를 매고 팀장이 되는 경우가 많아요. 상대에게 싫은 소리를 못하면서도 일이 계획대로 되지 않으면 스트레스를 받아요. 그러다 결국 팀플을 혼자 다 할 때도 있어요"
       }
     ],
-    "duo": [
-      {
-        "img": ".jpg",
-        "subhead": "INFP",
-        "des": "열정의 도시 마드리드, 스페인"
-      }
-    ],
-    "counter": [
-      {
-        "img": ".jpg",
-        "subhead": "ISTP",
-        "des": "호수의 도시 루가노, 스위스"
-      }
-    ]
+    "duo": {
+      "subhead": "INFP",
+      "nickname1": "완벽하지 않으면 시작 안 해!",
+      "nickname2": "게으름 창의력 맥스 팀원",
+      "img": "img/INFP.jpg"
+    },
+    "counter": {
+      "subhead": "ISTP",
+      "nickname1": "꽂히면 끝까지 간다!",
+      "nickname2": "(관심분야 한정) 하드캐리 팀원",
+      "img": "img/ISTP.jpg"
+    }
   },
   {
     "id": "ENFP",
@@ -586,20 +558,18 @@
         "des": "계획을 세우기 보다는 그때 그때 일을 처리하는 것을 좋아해요. 일머리가 있어서 결과는 좋은 편이에요"
       }
     ],
-    "duo": [
-      {
-        "img": ".jpg",
-        "subhead": "INFJ",
-        "des": "열정의 도시 마드리드, 스페인"
-      }
-    ],
-    "counter": [
-      {
-        "img": ".jpg",
-        "subhead": "ISTJ",
-        "des": "호수의 도시 루가노, 스위스"
-      }
-    ]
+    "duo": {
+      "subhead": "INFJ",
+      "nickname1": "평화롭게 갑시다!",
+      "nickname2": "계획적 서포팅형 팀원",
+      "img": "img/INFJ.jpg"
+    },
+    "counter": {
+      "subhead": "ISTJ",
+      "nickname1": "비효율은 참을 수 없어!",
+      "nickname2": "단호박 완벽주의 팀원",
+      "img": "img/ISTJ.jpg"
+    }
   },
   {
     "id": "ESTJ",
@@ -630,20 +600,18 @@
         "des": "다른 사람들이 일 못하는 걸 답답해 해서 본인이 다 하는 경우가 많아요. 보통 팀장을 맡아요"
       }
     ],
-    "duo": [
-      {
-        "img": ".jpg",
-        "subhead": "ISTP",
-        "des": "열정의 도시 마드리드, 스페인"
-      }
-    ],
-    "counter": [
-      {
-        "img": ".jpg",
-        "subhead": "INFP",
-        "des": "호수의 도시 루가노, 스위스"
-      }
-    ]
+    "duo": {
+      "subhead": "ISTP",
+      "nickname1": "꽂히면 끝까지 간다!",
+      "nickname2": "(관심분야 한정) 하드캐리 팀원",
+      "img": "img/ISTP.jpg"
+    },
+    "counter": {
+      "subhead": "INFP",
+      "nickname1": "완벽하지 않으면 시작 안 해!",
+      "nickname2": "게으름 창의력 맥스 팀원",
+      "img": "img/INFP.jpg"
+    }
   },
   {
     "id": "ESFJ",
@@ -674,19 +642,17 @@
         "des": "책임감과 계획력, 특유의 사교성으로 인해 팀장을 맡는 경우도 종종 있어요. 팀에서 중재자의 역할을 맡기도 해요"
       }
     ],
-    "duo": [
-      {
-        "img": ".jpg",
-        "subhead": "ISFP",
-        "des": "열정의 도시 마드리드, 스페인"
-      }
-    ],
-    "counter": [
-      {
-        "img": ".jpg",
-        "subhead": "INTP",
-        "des": "호수의 도시 루가노, 스위스"
-      }
-    ]
+    "duo": {
+      "subhead": "ISFP",
+      "nickname1": "남는 거 할게요...!",
+      "nickname2": "맞춤형 액체형 팀원",
+      "img": "img/ISFP.jpg"
+    },
+    "counter": {
+      "subhead": "INTP",
+      "nickname1": "아이디어는 내게 맡겨!",
+      "nickname2": "아이디어 뱅크 팀원",
+      "img": "img/INTP.jpg"
+    }
   }
 ]

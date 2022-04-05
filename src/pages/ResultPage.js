@@ -1,17 +1,15 @@
 import React from 'react';
-import {useSearchParams, useLocation} from "react-router-dom";
+import {useSearchParams, Link} from "react-router-dom";
 import mbti from "../json/mbtiresult";
 import {AiOutlineLeft, AiOutlineMenu, AiOutlineSearch} from "react-icons/ai";
 import {BsFillArrowRightCircleFill, BsPlusSquare} from "react-icons/bs";
 import "./StartPage.css";
-import { CopyToClipboard } from "react-copy-to-clipboard";
+import {CopyToClipboard} from "react-copy-to-clipboard";
 
 function ResultPage() {
     let [searchParams] = useSearchParams();
     const params = searchParams.get("res");
     const input_name = searchParams.get("name");
-    const location = useLocation();
-    console.log(window.location.toString());
     let e = 0, s = 0, t = 0, j = 0;
 
     for (let c = 0; c <= params.length; c++) {
@@ -42,8 +40,6 @@ function ResultPage() {
         }
     }
 
-    let imgUrl = "../img/" + count + ".jpg";
-
     return (
         <>
             <div className="result-frame">
@@ -58,20 +54,42 @@ function ResultPage() {
                 </div>
                 <div className="wrap">
                     <div className="result">
-                        <h3>조별 과제 속 <span>{input_name}</span>님의 모습은?</h3>
-                        <h3>{mbti[count].nickname1}</h3>
-                        <h2>{mbti[count].nickname2}</h2>
-                        <p>{mbti[count].id}</p>
-                        <img src={mbti[count].img} alt="결과 이미지" width="200px" height="200px"/>
-                        <div className="des"><span>{mbti[count].subhead}</span>{mbti[count].description.map((item) =>
+                        <div className="outcome">
+                            <h3>조별 과제 속 <span>{input_name}</span>님의 모습은?</h3>
+                            <h3>{mbti[count].nickname1}</h3>
+                            <h2>{mbti[count].nickname2}</h2>
+                            <p>{mbti[count].id}</p>
+                            <img src={mbti[count].img} alt="결과 이미지" width="200px" height="200px"/>
+                            <div className="des">
+                                <span>{mbti[count].subhead}</span>{mbti[count].description.map((item) =>
                                 <li key={item.des}>
                                     {item.des}
                                 </li>
-                        )}</div>
+                            )}</div>
+                        </div>
+                        <div className="detail">
+                            <div className="duo">
+                                <h1>나와 잘 어울리는 팀원은?</h1>
+                                <img src={mbti[count].duo.img} alt="결과 이미지" width="200px" height="200px"/>
+                                <h2>{mbti[count].duo.nickname1}</h2>
+                                <h3>{mbti[count].duo.nickname2}</h3>
+                            </div>
+                            <div className="counter">
+                                <h1>나와 안 어울리는 팀원은?</h1>
+                                <img src={mbti[count].counter.img} alt="결과 이미지" width="200px" height="200px"/>
+                                <h2>{mbti[count].counter.nickname1}</h2>
+                                <h3>{mbti[count].counter.nickname2}</h3>
+                            </div>
+                        </div>
                     </div>
-                    <CopyToClipboard text={window.location.toString()} onCopy={()=>alert("공유 링크가 복사되었습니다!")}>
-                        <button>결과 공유하기</button>
-                    </CopyToClipboard>
+                    <div className="btn">
+                        <CopyToClipboard text={window.location.toString()} onCopy={() => alert("공유 링크가 복사되었습니다!")}>
+                            <button>결과 공유하기</button>
+                        </CopyToClipboard>
+                        <Link to="/" style={{textDecoration: 'none'}}>
+                            <button>다시 테스트 하기</button>
+                        </Link>
+                    </div>
                 </div>
                 <div className="under">
                     < BsPlusSquare className="plus_icon" size="30"
