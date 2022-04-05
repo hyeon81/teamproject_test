@@ -30,11 +30,11 @@ function TestPage() {
         if (len < 12)
             setNum(searchParams.get("res")?.length ?? 0)
         else {
-            navigate("/result?"+searchParams.toString());
+            navigate("/result?" + searchParams.toString());
         }
     }, [searchParams])
 
-    if(num >=12){
+    if (num >= 12) {
         return <></>
     }
 
@@ -43,7 +43,10 @@ function TestPage() {
             <div className="frame">
                 <div className="gnb">
                     <div className="icon-right">
-                        <AiOutlineLeft size="28"/>
+                        <button onClick={() => navigate(-1)}>
+                            <AiOutlineLeft size="28"/>
+                        </button>
+
                     </div>
                     <div className="icon-left">
                         <AiOutlineSearch className="search_icon" size="28"/>

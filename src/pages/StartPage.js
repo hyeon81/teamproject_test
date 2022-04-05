@@ -20,7 +20,9 @@ function StartPage() {
             <div className="frame">
                 <div className="gnb">
                     <div className="icon-right">
-                        <AiOutlineLeft size="28"/>
+                        <button onClick={() => navigate(-1)}>
+                            <AiOutlineLeft size="28"/>
+                        </button>
                     </div>
                     <div className="icon-left">
                         <AiOutlineSearch className="search_icon" size="28"/>

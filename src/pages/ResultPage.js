@@ -1,5 +1,5 @@
 import React from 'react';
-import {useSearchParams, Link} from "react-router-dom";
+import {useSearchParams, Link, useNavigate} from "react-router-dom";
 import mbti from "../json/mbtiresult";
 import {AiOutlineLeft, AiOutlineMenu, AiOutlineSearch} from "react-icons/ai";
 import {BsFillArrowRightCircleFill, BsPlusSquare} from "react-icons/bs";
@@ -8,6 +8,7 @@ import {CopyToClipboard} from "react-copy-to-clipboard";
 
 function ResultPage() {
     let [searchParams] = useSearchParams();
+    const navigate = useNavigate();
     const params = searchParams.get("res");
     const input_name = searchParams.get("name");
     let e = 0, s = 0, t = 0, j = 0;
@@ -45,7 +46,9 @@ function ResultPage() {
             <div className="result-frame">
                 <div className="gnb">
                     <div className="icon-right">
-                        <AiOutlineLeft size="28"/>
+                        <button onClick={() => navigate(-1)}>
+                            <AiOutlineLeft size="28"/>
+                        </button>
                     </div>
                     <div className="icon-left">
                         <AiOutlineSearch className="search_icon" size="28"/>
@@ -70,13 +73,13 @@ function ResultPage() {
                         <div className="detail">
                             <div className="duo">
                                 <h1>나와 잘 어울리는 팀원은?</h1>
-                                <img src={mbti[count].duo.img} alt="결과 이미지" width="200px" height="200px"/>
+                                <img src={mbti[count].duo.img} alt="결과 이미지" width="150px" height="150px"/>
                                 <h2>{mbti[count].duo.nickname1}</h2>
                                 <h3>{mbti[count].duo.nickname2}</h3>
                             </div>
                             <div className="counter">
                                 <h1>나와 안 어울리는 팀원은?</h1>
-                                <img src={mbti[count].counter.img} alt="결과 이미지" width="200px" height="200px"/>
+                                <img src={mbti[count].counter.img} alt="결과 이미지" width="150px" height="150px"/>
                                 <h2>{mbti[count].counter.nickname1}</h2>
                                 <h3>{mbti[count].counter.nickname2}</h3>
                             </div>
